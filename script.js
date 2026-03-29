@@ -90,7 +90,7 @@ window.addEventListener("scroll", () => {
 
 const $codeProjectsDiv = document.getElementById("codeProjectList");
 
-fetch("https://zergiopc.github.io/Portafolio/JSON/code.json")
+fetch("https://zergiopc.github.io/OLD_Portafolio/JSON/code.json")
     .then(respuesta => respuesta.json())
     .then(datos => {
         const ul = document.createElement("ul");
@@ -185,7 +185,7 @@ function playSong(i) {
 }
 
 
-fetch("https://zergiopc.github.io/Portafolio/JSON/music.json")
+fetch("https://zergiopc.github.io/OLD_Portafolio/JSON/music.json")
 .then(respuesta => respuesta.json())
 .then(datos => {
     songsList = datos;
@@ -201,7 +201,7 @@ fetch("https://zergiopc.github.io/Portafolio/JSON/music.json")
 
 const $animListDiv = document.getElementById("animProjectList");
 
-fetch("https://zergiopc.github.io/Portafolio/JSON/animation.json")
+fetch("https://zergiopc.github.io/OLD_Portafolio/JSON/animation.json")
     .then(respuesta => respuesta.json())
     .then(datos => {
         const ul = document.createElement("ul");
